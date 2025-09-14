@@ -16,6 +16,20 @@ int main() {
     cin >> b;
     cout << "hasilnya : \n";
 
+    if (aritmatika == '+') {
+        hasil = a + b;
+    } else if (aritmatika == '-') {
+        hasil = a - b;
+    } else if (aritmatika == '*') {
+        hasil = a * b;
+    } else if (aritmatika == '/') {
+        hasil = a / b;
+    } else {
+        cout << "mikir kids" << endl;
+    }
+
+    cout << a << aritmatika << b << " = " << hasil << endl;
+
 
     return 0;
 }
